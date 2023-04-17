@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 public class donations {
 	
 	@Id
-	@GeneratedValue
+	@GeneratedValue 
 	private long dnid;
 	@Column(name="type", nullable=false)
 	private String type;
